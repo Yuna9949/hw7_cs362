@@ -1,7 +1,10 @@
 def leapyear(y):
     LYChk = False
     if y % 4 == 0:
-        LYChk = True
+        if y % 100 == 0:
+            pass
+        else:
+            LYChk = True
     return LYChk
 
 
