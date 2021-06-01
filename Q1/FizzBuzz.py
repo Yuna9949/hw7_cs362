@@ -1,2 +1,3 @@
 def FizzBuzz(i):
-    pass
+    if i % 3 == 0:
+        return 'Fizz'
